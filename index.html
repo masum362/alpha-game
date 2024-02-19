@@ -36,7 +36,7 @@
             <div
                 class="screen flex items-start justify-center flex-col w-full bg-[#FFFFFFB3] border-8 border-[#2F2941] rounded-lg mx-auto h-[50vh]">
                 <p class="bg-[#2F2941] px-2 py-1 mx-auto rounded-sm">Don't watch keyboard while playing...</p>
-                <span class="flex items-center justify-center w-full h-full text-9xl font-bold text-[#010313]">Y</span>
+                <span id="screenAlphabet" class="flex items-center justify-center w-full h-full text-9xl font-bold text-[#010313]">Y</span>
             </div>
 
             <div class="flex items-center justify-center flex-col w-full gap-8">
@@ -119,10 +119,11 @@
 
             </div>
 
-        </section>vl
+        </section>
         <!-- score page -->
         <section id="scoreSection" class="hidden flex items-center justify-center min-h-screen">
-            <div class="p-4 bg-gradient-to-r from-[#ffffff8A] to-[#98979733] rounded-lg flex flex-col gap-4 items-center justify-center">
+            <div
+                class="p-4 bg-gradient-to-r from-[#ffffff8A] to-[#98979733] rounded-lg flex flex-col gap-4 items-center justify-center">
                 <h1 class="text-5xl font-bold ">Score : <span>14</span></h1>
                 <button class="btn">
                     Play Again
@@ -138,8 +139,9 @@
 
 
 
-
-    <script src="./js/script.js"></script>
+    <script src="./js/utility.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/game.js"></script>
 
 </body>
 
